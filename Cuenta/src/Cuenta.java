@@ -18,7 +18,7 @@ public class Cuenta {
     public void setNumero(String numCta){
         numero = numCta;
     }
-    
+
     public void setSaldo(float saldoCta){
         saldo = saldoCta;
     }
