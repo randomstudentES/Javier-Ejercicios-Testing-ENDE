@@ -7,30 +7,30 @@ import static org.junit.jupiter.api.Assertions.*;
 class CalculadoraTest {
 
     @Test
-    void suma() {
+    void suma() { // Complejidad: 1
     }
 
     @Test
-    void resta() {
+    void resta() { // Complejidad: 1
     }
 
     @Test
-    void multiplicacion() {
+    void multiplicacion() { // Complejidad: 1
     }
 
     @Test
-    void division() {
+    void division() { // Complejidad: 2
     }
 
     @Test
-    void esPar() {
+    void esPar() { // Complejidad: 1
     }
 
     @Test
-    void maximo() {
+    void maximo() { // Complejidad: 5
     }
 
     @Test
-    void esDivisible() {
+    void esDivisible() { // Complejidad: 3
     }
 }
