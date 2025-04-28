@@ -20,7 +20,7 @@ class CalculadoraTest {
 
     @org.junit.jupiter.api.Test
     void resta() {
-
+        assertEquals(1, calculadora.resta(2, 1));
     }
 
     @org.junit.jupiter.api.Test
