@@ -15,10 +15,12 @@ class CalculadoraTest {
 
     @org.junit.jupiter.api.Test
     void suma() {
+        assertEquals(3, calculadora.suma(1, 2));
     }
 
     @org.junit.jupiter.api.Test
     void resta() {
+        assertEquals(1, calculadora.resta(3, 2));
     }
 
     @org.junit.jupiter.api.Test
