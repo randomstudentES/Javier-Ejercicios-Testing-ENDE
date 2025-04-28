@@ -25,6 +25,7 @@ class CalculadoraTest {
 
     @org.junit.jupiter.api.Test
     void multiplicacion() {
+        assertEquals(6, calculadora.multiplicacion(3, 2));
     }
 
     @org.junit.jupiter.api.Test
