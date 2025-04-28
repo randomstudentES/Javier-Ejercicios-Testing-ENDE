@@ -30,6 +30,7 @@ class CalculadoraTest {
 
     @org.junit.jupiter.api.Test
     void division() {
+        assertEquals(2, calculadora.division(4, 2));
     }
 
     @org.junit.jupiter.api.Test
