@@ -35,10 +35,13 @@ class CalculadoraTest {
 
     @org.junit.jupiter.api.Test
     void esPar() {
+        assertTrue(calculadora.esPar(4));
+
     }
 
     @org.junit.jupiter.api.Test
     void maximo() {
+        assertEquals(5, calculadora.maximo(1, 5, 4));
     }
 
     @org.junit.jupiter.api.Test
