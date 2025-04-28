@@ -46,5 +46,6 @@ class CalculadoraTest {
 
     @org.junit.jupiter.api.Test
     void esDivisible() {
+        assertTrue(calculadora.esDivisible(6, 2));
     }
 }
